@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      background-color: #343a40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .header a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    .header a:hover {
+      text-decoration: underline;
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      background-color: blue;
+      padding: 20px 0;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      .header, .footer {
+        text-align: center;
+      }
+      .product-card {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Welcome to Evatru Online Store</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Product Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Our Products</h2>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="card product-card">
+          <img src="/wrist watch.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">wrist watches</h5>
+            <p class="card-text"> diamond gold wrist watches,water resistance,gold chains,bracelets,etc.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card product-card">
+          <img src="/jeweries.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">JEWERIES</h5>
+            <p class="card-text">quality jeweries to suit your everyday look</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card product-card">
+          <img src="/fashion.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">makeup kit</h5>
+            <p class="card-text">beautiful and long lasting lipgloss,foundations etc..</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card product-card">
+          <img src="/fashion2.jpg" class="card-img-top" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title">DESIGNER WEARS</h5>
+            <p class="card-text">for your best designers wear,evatru got you covered.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Online Store. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
